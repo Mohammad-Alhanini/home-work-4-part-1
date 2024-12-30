@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .hover-link {
+      display: inline-block;
+      padding: 10px 20px;
+      color: green;
+      text-decoration: none;
+      border: 2px solid green;
+      transition: all 0.3s ease;
+    }
+
+    .hover-link:hover {
+      background-color: green;
+      color: white;
+    }
+
+
+    .highlighted-list {
+      background-color: yellow;
+      padding: 0px 30px;
+    }
+
+    .highlighted-list li {
+      list-style-type: square;
+    }
+
+
+    .heading {
+      padding: 20px;
+      width: 10%;
+      height: 30%;
+      background: url('Myimg.jpg');
+      z-index: -1;
+      white-space: nowrap;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <a href="#" class="hover-link">This is a link</a>
+  </div>
+  <br>
+
+  <ul class="highlighted-list">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+  </ul>
+
+  <div class="heading">
+    <h1>This is a heading</h1>
+  </div>
+</body>
+
+</html>
